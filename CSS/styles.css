@@ -299,6 +299,7 @@ h1 {
 
 .developments-title-item {
   width: calc((100% - 30px * 2) / 3);
+  position: relative;
 }
 
 .developments-title-item img {
@@ -307,18 +308,25 @@ h1 {
   height: auto;
 }
 
-.developments-title p {
-  margin: 0;
+.developments-position {
+  margin: 0px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  left: 0;
+
+  color: var(--white-color);
+  background-color: var(--hero-development-background);
+
+
   padding-top: 27px;
   padding-bottom: 27px;
   border-radius: 0px 0px 4px 4px;
 
-  background: var(--hero-development-background);
-  color: var(--white-color);
-
   font-family: Roboto;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.1;
   text-align: center;
