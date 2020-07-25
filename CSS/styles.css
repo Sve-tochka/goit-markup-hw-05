@@ -677,7 +677,6 @@ input {
   text-align: center;
   letter-spacing: 0.03rem;
 
-  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12); /* есть еще text-shadow */
   border-radius: 4px;
   border: 1px solid transparent;
 }
@@ -686,6 +685,8 @@ input {
 .btn:hover {
   color: var(--white-color);
   background-color: var(--accent-color);
+  /* есть еще text-shadow */
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 3px 1px rgba(0, 0, 0, 0.1);
 }
 
 .filtr {
