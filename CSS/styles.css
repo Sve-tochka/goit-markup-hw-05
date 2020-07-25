@@ -688,6 +688,10 @@ input {
 }
 
 .btn {
+  transition-property: all;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
   background-color: var(--page-background);
   color: #212121;
   font-family: Roboto;
